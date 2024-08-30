@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- SwiperJS styles -->
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="#">
+                    <img src="images/kpmg_logo.png" alt="Logo">
+                </a>
+            </li>
+            <li><a href="#my-learning">My Learning</a></li>
+            <li><a href="#my-history">My History</a></li>
+            <li>
+                <a href="#" id="notifications">Notifications <span id="notification-count">0</span></a>
+                <ul id="notification-list" class="dropdown dropdown-box"><button id="close">X</button></ul>
+            </li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#curriculum">Curriculum</a></li>
+            <li>
+                <input type="text" id="search-bar" placeholder="Search courses...">
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Banner Slider -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/images/slide-1.avif" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="/images/slide-2.avif" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="/images/slide-3.avif" alt="Slide 3"></div>
+        </div>
+        <!-- Add navigation buttons if needed -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Interactive Learning Modules -->
+    <section id="course-list">
+        <h2>Available Courses</h2>
+        <div class="course" data-title="JavaScript Basics">
+            <h3>JavaScript Basics</h3>
+            <p tabindex="0" aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="course" data-title="Advanced CSS Techniques">
+            <h3>Advanced CSS Techniques</h3>
+            <p>Enhance your styling with advanced CSS techniques.</p>
+        </div>
+        <div class="course" data-title="HTML5 for Beginners">
+            <h3>HTML5 for Beginners</h3>
+            <p>Get started with HTML5, the latest version of the web's core language.</p>
+        </div>
+        <div class="course" data-title="Python Programming">
+            <h3>Python Programming</h3>
+            <p>Dive into Python, one of the most popular programming languages.</p>
+        </div>
+        <div class="course" data-title="ReactJS Essentials">
+            <h3>ReactJS Essentials</h3>
+            <p>Learn the essentials of ReactJS, a powerful JavaScript library for building user interfaces.</p>
+        </div>
+    </section>
+    <section id="my-learning">
+        <h2 tabindex="0">My Learning</h2>
+        <div class="module">
+            <h3>Module 1</h3>
+            <div class="module-content"><p tabindex="0" aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+        </div>
+        <div class="module">
+            <h3 tabindex="0">Module 2</h3>
+            <div class="module-content"><p tabindex="0" aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+        </div>
+    </section>
+    <section id="my-history">
+        <h2 tabindex="0">My History</h2>
+        <div class="module">
+            <h3>History 1</h3>
+            <div class="module-content"><p tabindex="0" aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+        </div>
+        <div class="module">
+            <h3 tabindex="0">History 2</h3>
+            <div class="module-content"><p tabindex="0" aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+        </div>
+    </section>
+    
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
